@@ -5,7 +5,7 @@ Example
 -------
 Below is the format for a BPL program
 
-![alt text](https://i.imgur.com/OvknTat.png)
+![alt text](https://i.imgur.com/jzHmMfu.png)
 
 The data section is to declare variables, and the input section, as it is named, is for input.
 The program section is where it gets complex, each line in the program section is a command comprising of 4 parts split up like this: `+0|000|000|000` (addressed as `op|adr1|adr2|adr3` from now on) with the first group being the identifier for the command, with 20 different values, and the other 3 values being pointers to a memory address. Everthing in BPL is zero-based, and any errors generated, thown, and then the program is stopped.
