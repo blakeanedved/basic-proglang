@@ -110,10 +110,7 @@ void n5(int adr1, int adr2, int adr3){
 	}
 }
 void n6(int adr1, int adr2, int adr3){
-	data[adr3] = data[adr1];
-	for (int i = 1; i < data[adr2]; i++){
-		data[adr3] *= data[adr1];
-	}
+	printf("%c", (char)data[adr3]);
 }
 void n7(int adr1, int adr2, int adr3){
 	data[adr3] = adr2;

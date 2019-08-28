@@ -161,9 +161,9 @@ Jumps to `adr` if `num1` is not equal to `num2`
 ##### Arguments
 | adr1 | adr2 | adr3 |
 | --- | --- | --- |
-| num1 | num2 | result |
+| unused | unused | adr |
 
-Raises `num1` to the `num2` power and stores the answer in `result`
+Prints the character representation of the value at `adr`
 
 -7
 -------
